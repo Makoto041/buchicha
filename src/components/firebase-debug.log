@@ -1,0 +1,25 @@
+[debug] [2020-06-18T08:53:52.452Z] ----------------------------------------------------------------------
+[debug] [2020-06-18T08:53:52.455Z] Command:       /Users/makoto/.nodebrew/node/v12.14.1/bin/node /Users/makoto/.nodebrew/current/bin/firebase serve
+[debug] [2020-06-18T08:53:52.455Z] CLI Version:   7.12.1
+[debug] [2020-06-18T08:53:52.455Z] Platform:      darwin
+[debug] [2020-06-18T08:53:52.455Z] Node Version:  v12.14.1
+[debug] [2020-06-18T08:53:52.456Z] Time:          Thu Jun 18 2020 17:53:52 GMT+0900 (GMT+09:00)
+[debug] [2020-06-18T08:53:52.456Z] ----------------------------------------------------------------------
+[debug] [2020-06-18T08:53:52.456Z] 
+[debug] [2020-06-18T08:53:52.468Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-18T08:53:52.468Z] > authorizing via signed-in user
+[debug] [2020-06-18T08:53:52.468Z] [iam] checking project my-chat-20efc for permissions ["firebase.projects.get"]
+[debug] [2020-06-18T08:53:52.469Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/my-chat-20efc:testIamPermissions  
+
+[debug] [2020-06-18T08:53:53.162Z] <<< HTTP RESPONSE 200
+[debug] [2020-06-18T08:53:53.163Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/my-chat-20efc  
+ 
+[debug] [2020-06-18T08:53:53.618Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/makoto/neco_firebase/necocha'...
+[info] 
+[debug] [2020-06-18T08:53:53.630Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/my-chat-20efc/webApps/-/config  
+ 
+[debug] [2020-06-18T08:53:54.746Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist
+[info] ✔  hosting: Local server: http://localhost:5000
